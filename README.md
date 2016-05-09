@@ -1,6 +1,11 @@
 # tr-srt
 Translate SRTs using Google Translate
 
+Usage: ./runme.sh mysub.srt 
+The translated subtitle will be mysub.srt.translated.
+
+Dependencies: curl, awk 
+
 By default this translates from English to Chinese (simplified) but the
 languages can be changed as such:
 
